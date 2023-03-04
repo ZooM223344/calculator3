@@ -90,7 +90,7 @@ switch (stroka) {
 
 //======Практика==========
 if (!confirm("Ти хочеш працювати з канкулятором ?")) {
-    window.location.href = 'html/pages-2.html.url';
+    window.location.href = 'html/index.html';
 }
 const arrButtonNumbers = document.querySelectorAll(".canculytor__button");
 const canculytorDisplayNumber = document.querySelector(".display__number");
